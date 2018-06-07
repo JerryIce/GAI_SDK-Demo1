@@ -13,10 +13,10 @@
 		67A568EE20C793EF00214E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A568ED20C793EF00214E91 /* Assets.xcassets */; };
 		67A568F120C793EF00214E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A568EF20C793EF00214E91 /* LaunchScreen.storyboard */; };
 		67A568F420C793EF00214E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A568F320C793EF00214E91 /* main.m */; };
-		67A568FE20C7ABCD00214E91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67A568FD20C7ABCD00214E91 /* GoogleService-Info.plist */; };
 		67A5690120C7B91400214E91 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A5690020C7B91400214E91 /* ViewControllerTwo.m */; };
 		67A5690420C7B92200214E91 /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A5690320C7B92200214E91 /* ViewControllerThree.m */; };
 		67A5690720C7B92B00214E91 /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A5690620C7B92B00214E91 /* ViewControllerFour.m */; };
+		67A5691D20C93B3700214E91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67A5691C20C93B3700214E91 /* GoogleService-Info.plist */; };
 		6DD5EA80A388FCC4F11318EB /* Pods_GAnalysisTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95741AA70FB12978C74452F /* Pods_GAnalysisTwo.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,13 +32,13 @@
 		67A568F020C793EF00214E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67A568F220C793EF00214E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67A568F320C793EF00214E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67A568FD20C7ABCD00214E91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		67A568FF20C7B91400214E91 /* ViewControllerTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
 		67A5690020C7B91400214E91 /* ViewControllerTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
 		67A5690220C7B92200214E91 /* ViewControllerThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
 		67A5690320C7B92200214E91 /* ViewControllerThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
 		67A5690520C7B92B00214E91 /* ViewControllerFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerFour.h; sourceTree = "<group>"; };
 		67A5690620C7B92B00214E91 /* ViewControllerFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFour.m; sourceTree = "<group>"; };
+		67A5691C20C93B3700214E91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B95741AA70FB12978C74452F /* Pods_GAnalysisTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAnalysisTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD64B9C04E8C6845CFBB3334 /* Pods-GAnalysisTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAnalysisTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GAnalysisTwo/Pods-GAnalysisTwo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +79,8 @@
 				67A568E420C793EE00214E91 /* AppDelegate.h */,
 				67A568E520C793EE00214E91 /* AppDelegate.m */,
 				67A568ED20C793EF00214E91 /* Assets.xcassets */,
-				67A568FD20C7ABCD00214E91 /* GoogleService-Info.plist */,
 				67A568F220C793EF00214E91 /* Info.plist */,
+				67A5691C20C93B3700214E91 /* GoogleService-Info.plist */,
 				67A568EF20C793EF00214E91 /* LaunchScreen.storyboard */,
 				67A568F320C793EF00214E91 /* main.m */,
 				67A568EA20C793EE00214E91 /* Main.storyboard */,
@@ -173,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67A568F120C793EF00214E91 /* LaunchScreen.storyboard in Resources */,
-				67A568FE20C7ABCD00214E91 /* GoogleService-Info.plist in Resources */,
+				67A5691D20C93B3700214E91 /* GoogleService-Info.plist in Resources */,
 				67A568EE20C793EF00214E91 /* Assets.xcassets in Resources */,
 				67A568EC20C793EE00214E91 /* Main.storyboard in Resources */,
 			);

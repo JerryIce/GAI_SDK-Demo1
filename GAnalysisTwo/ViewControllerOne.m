@@ -20,9 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (void)viewWillAppear:(BOOL)animated{
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker set:kGAIScreenName value:@"第一个屏幕"];
-    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+   
 }
 
 - (void)didReceiveMemoryWarning {

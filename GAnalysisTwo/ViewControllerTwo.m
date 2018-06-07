@@ -26,9 +26,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker set:kGAIScreenName value:@"第二个屏幕"];
-    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+    
 }
 
 /*

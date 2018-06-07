@@ -6,6 +6,5 @@ target 'GAnalysisTwo' do
   use_frameworks!
 
   # Pods for GAnalysisTwo
-pod 'Google/Analytics'
 pod 'Firebase/Core'
 end

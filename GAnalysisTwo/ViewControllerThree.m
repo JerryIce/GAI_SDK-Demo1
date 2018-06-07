@@ -25,9 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)viewWillAppear:(BOOL)animated{
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker set:kGAIScreenName value:@"第三个屏幕"];
-    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+   
 }
 
 /*

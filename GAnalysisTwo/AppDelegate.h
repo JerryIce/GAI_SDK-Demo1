@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Google/Analytics.h>
 //import <FirebaseCore/FirebaseCore.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Google/Analytics.h>
+
 @interface ViewControllerThree : UIViewController
 
 @end

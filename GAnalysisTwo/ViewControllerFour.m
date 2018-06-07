@@ -26,14 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)viewWillAppear:(BOOL)animated{
-    id<GAITracker> tracker = [[GAI sharedInstance]defaultTracker];
-    [tracker set:kGAIScreenName value:@"第四个屏"];
-    [tracker send:[[GAIDictionaryBuilder createScreenView]build]];
+   
 }
 
 -(void)button4Pressed{
-    NSMutableDictionary *event = [[GAIDictionaryBuilder createEventWithCategory:@"分类：动作" action:@"动作：按钮1触发" label:@"标签：任意写写,后面值101" value:[NSNumber numberWithInt:101]]build];
-    [[GAI sharedInstance].defaultTracker send:event];
+    
     NSLog(@"事件触发按钮1");
 }
 
